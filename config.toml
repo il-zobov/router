@@ -1,0 +1,56 @@
+[dbConf]
+db_User = "api-test"
+db_Pass = "xxxxel5EjOi"
+db_Addr = "127.0.0.1"
+db_Port = "3306"
+db_Name = "test"
+db_ConnMaxLifetime = 3
+db_MaxOpenConns = 50
+db_MaxIdleConns = 50
+
+
+[networkConf]
+headerName = "x-api"
+bind_addr = ":8080"
+log_level = "debug"
+cacheDefaultTimeout = 5
+
+[FixPlan]
+    [fixPlan.45345345]
+    location = "@plan_api_business"
+    accountName = "tanya"
+
+    [fixPlan.345345345]
+    location = "@plan_api_team"
+    accountName = "petia"
+
+    [fixPlan.34534534]
+    location = "@plan_api_team"
+    accountName = "sergei"
+
+
+
+[[classes]]
+paid = 1
+max_points = 33333
+location = "@plan_api_a"
+
+
+[[classes]]
+    paid = 1
+max_points = 444444
+location = "@plan_api_b"
+
+[[classes]]
+paid = 1
+max_points = 55555
+location = "@plan_api_c"
+
+[[classes]]
+paid = 0
+max_points = 6666666
+location = "@plan_api_d"
+
+[[classes]]
+location = "@default"
+
