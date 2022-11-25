@@ -1,2 +1,3 @@
 time="2022-11-25T01:08:28+03:00" level=info msg="create router" func="main.main()" file="app.go:19"
 time="2022-11-25T10:39:05+03:00" level=info msg="create router" func="main.main()" file="app.go:19"
+time="2022-11-25T12:49:56+03:00" level=info msg="create router" func="main.main()" file="app.go:19"
